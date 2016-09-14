@@ -1,6 +1,6 @@
 # SplitJSON
 
-Provides a constructor for WebSockets that automatically attempt to reconnect after being disconnected. Reconnection times start at ~5s for the first attempt, double after each failed attempt, and are randomized by +/- 10% to prevent clients from reconnecting at the exact same time after a server event.
+Split concatenated JSON strings.
 
 [![License: LGPL](https://img.shields.io/badge/license-LGPL-blue.svg)](https://opensource.org/licenses/lgpl-3.0.html)
 [![View on npm](https://img.shields.io/npm/v/split-json.svg)](https://www.npmjs.org/package/split-json)
