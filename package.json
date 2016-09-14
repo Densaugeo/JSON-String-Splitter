@@ -1,6 +1,6 @@
 {
   "name": "json-string-splitter",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Split concatenated JSON strings",
   "keywords": [
     "json"
