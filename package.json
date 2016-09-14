@@ -1,33 +1,33 @@
 {
-  "name": "split-json",
+  "name": "json-string-splitter",
   "version": "0.0.1",
   "description": "Split concatenated JSON strings",
   "keywords": [
     "json"
   ],
-  "homepage": "https://github.com/Densaugeo/Split-JSON",
-  "bugs": "https://github.com/Densaugeo/Split-JSON/issues",
+  "homepage": "https://github.com/Densaugeo/JSON-String-Splitter",
+  "bugs": "https://github.com/Densaugeo/JSON-String-Splitter/issues",
   "license": "LGPL-2.1+",
   "author": "Densaugeo (http://www.madengineersworkshop.net/)",
   "contributors": [],
   "files": [
     "doc",
-    "SplitJSON.js",
+    "Splitter.js",
     "LICENSE",
     "package.json",
     "README.md"
   ],
-  "main": "SplitJSON.js",
+  "main": "Splitter.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Densaugeo/Split-JSON.git"
+    "url": "https://github.com/Densaugeo/JSON-String-Splitter.git"
   },
   "scripts": {
-    "build": "browserify -s SplitJSON SplitJSON.js | uglifyjs > build/SplitJSON.pkgd.min.js",
+    "build": "browserify -s Splitter Splitter.js | uglifyjs > build/Splitter.pkgd.min.js",
     "lint": "eslint *.js test/*.js",
     "unit": "mocha test/test.js",
     "test": "npm run lint && npm run unit",
-    "doc": "jsdoc2md SplitJSON.js > doc/SplitJSON.md"
+    "doc": "jsdoc2md Splitter.js > doc/Splitter.md"
   },
   "config": {},
   "dependencies": {},

@@ -1,7 +1,7 @@
 /**
  * Split concatenated JSON strings
  * 
- * @module split-json
+ * @module json-string-splitter
  */
 
 /**
@@ -9,15 +9,15 @@
  * 
  * Passing in invalid JSON can result in garbage output
  * 
- * @alias SplitJSON
+ * @alias splitter
  * @since 1.0.0
  * @param {string} string The string to look for JSON in
  * @returns {{ jsons: string[], remainder: '' }} 
  * 
  * @example
- * var SplitJSON = require('split-json');
+ * var splitter = require('json-string-splitter');
  * 
- * var pieces = SplitJSON('{"foo":"bar"}{"more":"json"}{"partial":"json"');
+ * var pieces = splitter('{"foo":"bar"}{"more":"json"}{"partial":"json"');
  * 
  * console.log(pieces.jsons[0]); // '{"foo":"bar"}'
  * console.log(pieces.jsons[1]); // '{"more":"json"}'
