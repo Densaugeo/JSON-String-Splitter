@@ -9,18 +9,21 @@
  * 
  * Passing in invalid JSON can result in garbage output
  * 
+ * @alias SplitJSON
  * @since 1.0.0
  * @param {string} string The string to look for JSON in
  * @returns {{ jsons: string[], remainder: '' }} 
  * 
  * @example
- * var pieces = splitJSON('{"foo":"bar"}{"more":"json"}{"partial":"json"');
+ * var SplitJSON = require('split-json');
+ * 
+ * var pieces = SplitJSON('{"foo":"bar"}{"more":"json"}{"partial":"json"');
  * 
  * console.log(pieces.jsons[0]); // '{"foo":"bar"}'
  * console.log(pieces.jsons[1]); // '{"more":"json"}'
  * console.log(pieces.remainder); // '{"partial":"json"'
  */
-module.exports.splitJSON = function(string) {
+module.exports = function(string) {
   var START = 0, JSON = 1, STRING = 2, ESCAPE = 3;
   
   var state = START;

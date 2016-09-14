@@ -1,5 +1,5 @@
 var assert = require('assert');
-var split = require('..').splitJSON;
+var split = require('..');
 
 suite('', function() {
   test('Single well-formed json', function() {
