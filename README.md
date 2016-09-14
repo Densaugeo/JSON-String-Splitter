@@ -4,7 +4,7 @@ Split concatenated JSON strings.
 
 [![License: LGPL](https://img.shields.io/badge/license-LGPL-blue.svg)](https://opensource.org/licenses/lgpl-3.0.html)
 [![View on npm](https://img.shields.io/npm/v/json-string-splitter.svg)](https://www.npmjs.org/package/json-string-splitter)
-[![Build Status](https://img.shields.io/travis/Densaugeo/Split-JSON.svg)](https://travis-ci.org/Densaugeo/JSON-String-Splitter)
+[![Build Status](https://img.shields.io/travis/Densaugeo/JSON-String-Splitter.svg)](https://travis-ci.org/Densaugeo/JSON-String-Splitter)
 
 ## Installation
 
