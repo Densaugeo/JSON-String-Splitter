@@ -23,7 +23,7 @@
     "url": "https://github.com/Densaugeo/Split-JSON.git"
   },
   "scripts": {
-    "build": "browserify -s SplitJSON SplitJSON.js | uglifyjs > SplitJSON.pkgd.min.js",
+    "build": "browserify -s SplitJSON SplitJSON.js | uglifyjs > build/SplitJSON.pkgd.min.js",
     "lint": "eslint *.js test/*.js",
     "unit": "mocha test/test.js",
     "test": "npm run lint && npm run unit",
