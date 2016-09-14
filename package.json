@@ -1,42 +1,39 @@
 {
-  "name": "json-detector",
+  "name": "split-json",
   "version": "0.0.1",
-  "description": "Find JSON substrings in a larger string",
+  "description": "Split concatenated JSON strings",
   "keywords": [
     "json"
   ],
-  "homepage": "https://github.com/Densaugeo/JSON-Detector",
-  "bugs": "https://github.com/Densaugeo/JSON-Detector/issues",
+  "homepage": "https://github.com/Densaugeo/Split-JSON",
+  "bugs": "https://github.com/Densaugeo/Split-JSON/issues",
   "license": "LGPL-2.1+",
   "author": "Densaugeo (http://www.madengineersworkshop.net/)",
   "contributors": [],
   "files": [
     "doc",
-    "JSONDetector.js",
+    "SplitJSON.js",
     "LICENSE",
     "package.json",
     "README.md"
   ],
-  "main": "JSONDetector.js",
+  "main": "SplitJSON.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Densaugeo/JSON-Detector.git"
+    "url": "https://github.com/Densaugeo/Split-JSON.git"
   },
   "scripts": {
     "lint": "jshint *.js test/*.js",
     "test": "mocha test/test.js",
-    "doc": "jsdoc2md JSONDetector.js > doc/JSONDetector.md"
+    "doc": "jsdoc2md SplitJSON.js > doc/SplitJSON.md"
   },
   "config": {},
-  "dependencies": {
-    "jsdoc-to-markdown": "^1.3.7"
-  },
+  "dependencies": {},
   "devDependencies": {
     "browserify": "~11.0.1",
     "jshint": "~2.8.0",
-    "sinon": "~1.15.4",
-    "mocha": "~2.2.5",
-    "thoth-doc": "~0.0.0"
+    "jsdoc-to-markdown": "^1.3.7",
+    "mocha": "^3.0.2"
   },
   "engines": {}
 }
