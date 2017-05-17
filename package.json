@@ -15,7 +15,8 @@
     "Splitter.js",
     "LICENSE",
     "package.json",
-    "README.md"
+    "README.md",
+    "index.d.ts"
   ],
   "main": "Splitter.js",
   "repository": {
