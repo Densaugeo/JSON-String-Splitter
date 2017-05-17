@@ -17,7 +17,7 @@
  * console.log(pieces.jsons[1]); // '{"more":"json"}'
  * console.log(pieces.remainder); // '{"partial":"json"'
  */
-export default function(str: string): IJSONSplitted;
+export = function (str: string): IJSONSplitted;
 
 export interface IJSONSplitted {
     jsons: string[];
