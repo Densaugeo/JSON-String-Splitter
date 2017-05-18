@@ -17,10 +17,10 @@
  * console.log(pieces.jsons[1]); // '{"more":"json"}'
  * console.log(pieces.remainder); // '{"partial":"json"'
  */
+declare function jsonstringsplitter(str: string): jsonstringsplitter.IJSONSplitted;
 export = jsonstringsplitter;
-declare function jsonstringsplitter(str: string): JSONStringSplitter.IJSONSplitted;
-
-declare namespace JSONStringSplitter {
+export as namespace jsonstringsplitter;
+declare namespace jsonstringsplitter {
     interface IJSONSplitted {
         jsons: string[];
         remainder?: string;
